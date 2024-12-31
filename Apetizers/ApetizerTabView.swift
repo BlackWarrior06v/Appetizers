@@ -28,7 +28,7 @@ struct ApetizerTabView: View {
                     Text("Order")
                 }
         }
-        .accentColor(Color("brandPrimary"))
+        .accentColor(Color.brandPrimary1)
     }
 }
 

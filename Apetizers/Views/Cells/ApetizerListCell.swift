@@ -13,8 +13,7 @@ struct ApetizerListCell: View {
     
     var body: some View {
         HStack {
-            Image(apetizer.imageURL)
-                .resizable()
+            ApetizerRemoteImage(urlString: apetizer.imageURL)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 120, height: 90)
                 .cornerRadius(8)

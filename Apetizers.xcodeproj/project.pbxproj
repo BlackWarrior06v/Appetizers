@@ -6,6 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C0D91FDF2D24CA1400831ACE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D91FCD2D24CA1400831ACE /* Preview Assets.xcassets */; };
+		C0D91FE02D24CA1400831ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D91FD82D24CA1400831ACE /* Assets.xcassets */; };
+		C0D91FE12D24CA1400831ACE /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D91FCF2D24CA1400831ACE /* Alert.swift */; };
+		C0D91FE22D24CA1400831ACE /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D91FD02D24CA1400831ACE /* APError.swift */; };
+		C0D91FE32D24CA1400831ACE /* Apetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D91FD12D24CA1400831ACE /* Apetizer.swift */; };
+		C0D91FE42D24CA1400831ACE /* ApetizerAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D91FD22D24CA1400831ACE /* ApetizerAccountView.swift */; };
+		C0D91FE52D24CA1400831ACE /* ApetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D91FD32D24CA1400831ACE /* ApetizerListCell.swift */; };
+		C0D91FE62D24CA1400831ACE /* ApetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D91FD42D24CA1400831ACE /* ApetizerListView.swift */; };
+		C0D91FE72D24CA1400831ACE /* ApetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D91FD52D24CA1400831ACE /* ApetizerListViewModel.swift */; };
+		C0D91FE82D24CA1400831ACE /* ApetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D91FD62D24CA1400831ACE /* ApetizersApp.swift */; };
+		C0D91FE92D24CA1400831ACE /* ApetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D91FD72D24CA1400831ACE /* ApetizerTabView.swift */; };
+		C0D91FEA2D24CA1400831ACE /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D91FD92D24CA1400831ACE /* Color+Ext.swift */; };
+		C0D91FEB2D24CA1400831ACE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D91FDA2D24CA1400831ACE /* LoadingView.swift */; };
+		C0D91FEC2D24CA1400831ACE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D91FDB2D24CA1400831ACE /* NetworkManager.swift */; };
+		C0D91FED2D24CA1400831ACE /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D91FDC2D24CA1400831ACE /* OrderView.swift */; };
+		C0D91FEE2D24CA1400831ACE /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D91FDD2D24CA1400831ACE /* RemoteImage.swift */; };
+		C0D91FFD2D24CC4400831ACE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D91FFC2D24CC4400831ACE /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C077BB5F2D1F8C680049C96E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +47,26 @@
 		C077BB4E2D1F8C660049C96E /* Apetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C077BB5E2D1F8C680049C96E /* ApetizersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApetizersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C077BB682D1F8C680049C96E /* ApetizersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApetizersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D91FCD2D24CA1400831ACE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0D91FCF2D24CA1400831ACE /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		C0D91FD02D24CA1400831ACE /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		C0D91FD12D24CA1400831ACE /* Apetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apetizer.swift; sourceTree = "<group>"; };
+		C0D91FD22D24CA1400831ACE /* ApetizerAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApetizerAccountView.swift; sourceTree = "<group>"; };
+		C0D91FD32D24CA1400831ACE /* ApetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApetizerListCell.swift; sourceTree = "<group>"; };
+		C0D91FD42D24CA1400831ACE /* ApetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApetizerListView.swift; sourceTree = "<group>"; };
+		C0D91FD52D24CA1400831ACE /* ApetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApetizerListViewModel.swift; sourceTree = "<group>"; };
+		C0D91FD62D24CA1400831ACE /* ApetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApetizersApp.swift; sourceTree = "<group>"; };
+		C0D91FD72D24CA1400831ACE /* ApetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApetizerTabView.swift; sourceTree = "<group>"; };
+		C0D91FD82D24CA1400831ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0D91FD92D24CA1400831ACE /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		C0D91FDA2D24CA1400831ACE /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		C0D91FDB2D24CA1400831ACE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C0D91FDC2D24CA1400831ACE /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		C0D91FDD2D24CA1400831ACE /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		C0D91FFC2D24CC4400831ACE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C077BB502D1F8C660049C96E /* Apetizers */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Apetizers;
-			sourceTree = "<group>";
-		};
 		C077BB612D1F8C680049C96E /* ApetizersTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ApetizersTests;
@@ -75,7 +107,7 @@
 		C077BB452D1F8C660049C96E = {
 			isa = PBXGroup;
 			children = (
-				C077BB502D1F8C660049C96E /* Apetizers */,
+				C0D91FDE2D24CA1400831ACE /* Apetizers */,
 				C077BB612D1F8C680049C96E /* ApetizersTests */,
 				C077BB6B2D1F8C680049C96E /* ApetizersUITests */,
 				C077BB4F2D1F8C660049C96E /* Products */,
@@ -92,6 +124,142 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C0D91FCE2D24CA1400831ACE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C0D91FCD2D24CA1400831ACE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0D91FDE2D24CA1400831ACE /* Apetizers */ = {
+			isa = PBXGroup;
+			children = (
+				C0D91FF72D24CB2E00831ACE /* Model */,
+				C0D91FF32D24CACC00831ACE /* Utilities */,
+				C0D91FF82D24CB4000831ACE /* Views */,
+				C0D91FEF2D24CA1E00831ACE /* Screens */,
+				C0D91FCE2D24CA1400831ACE /* Preview Content */,
+				C0D91FD62D24CA1400831ACE /* ApetizersApp.swift */,
+				C0D91FD82D24CA1400831ACE /* Assets.xcassets */,
+			);
+			path = Apetizers;
+			sourceTree = "<group>";
+		};
+		C0D91FEF2D24CA1E00831ACE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C0D91FD72D24CA1400831ACE /* ApetizerTabView.swift */,
+				C0D91FF02D24CA2D00831ACE /* ApetizerListView */,
+				C0D91FF12D24CA3C00831ACE /* AccountView */,
+				C0D91FF22D24CA4500831ACE /* OrderView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C0D91FF02D24CA2D00831ACE /* ApetizerListView */ = {
+			isa = PBXGroup;
+			children = (
+				C0D91FFC2D24CC4400831ACE /* DetailView.swift */,
+				C0D91FD52D24CA1400831ACE /* ApetizerListViewModel.swift */,
+				C0D91FD42D24CA1400831ACE /* ApetizerListView.swift */,
+			);
+			path = ApetizerListView;
+			sourceTree = "<group>";
+		};
+		C0D91FF12D24CA3C00831ACE /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				C0D91FD22D24CA1400831ACE /* ApetizerAccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		C0D91FF22D24CA4500831ACE /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				C0D91FDC2D24CA1400831ACE /* OrderView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		C0D91FF32D24CACC00831ACE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C0D91FF62D24CAF400831ACE /* Alerts */,
+				C0D91FF52D24CADA00831ACE /* Extensions */,
+				C0D91FF42D24CAD200831ACE /* Managers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C0D91FF42D24CAD200831ACE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C0D91FDB2D24CA1400831ACE /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C0D91FF52D24CADA00831ACE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C0D91FD92D24CA1400831ACE /* Color+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C0D91FF62D24CAF400831ACE /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				C0D91FD02D24CA1400831ACE /* APError.swift */,
+				C0D91FCF2D24CA1400831ACE /* Alert.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		C0D91FF72D24CB2E00831ACE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0D91FD12D24CA1400831ACE /* Apetizer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C0D91FF82D24CB4000831ACE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C0D91FFB2D24CB7400831ACE /* Image */,
+				C0D91FFA2D24CB6D00831ACE /* Cells */,
+				C0D91FF92D24CB6100831ACE /* UIKit Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C0D91FF92D24CB6100831ACE /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				C0D91FDA2D24CA1400831ACE /* LoadingView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		C0D91FFA2D24CB6D00831ACE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C0D91FD32D24CA1400831ACE /* ApetizerListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C0D91FFB2D24CB7400831ACE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C0D91FDD2D24CA1400831ACE /* RemoteImage.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +274,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				C077BB502D1F8C660049C96E /* Apetizers */,
 			);
 			name = Apetizers;
 			packageProductDependencies = (
@@ -212,6 +377,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0D91FDF2D24CA1400831ACE /* Preview Assets.xcassets in Resources */,
+				C0D91FE02D24CA1400831ACE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +403,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0D91FE12D24CA1400831ACE /* Alert.swift in Sources */,
+				C0D91FE22D24CA1400831ACE /* APError.swift in Sources */,
+				C0D91FE32D24CA1400831ACE /* Apetizer.swift in Sources */,
+				C0D91FE42D24CA1400831ACE /* ApetizerAccountView.swift in Sources */,
+				C0D91FE52D24CA1400831ACE /* ApetizerListCell.swift in Sources */,
+				C0D91FE62D24CA1400831ACE /* ApetizerListView.swift in Sources */,
+				C0D91FE72D24CA1400831ACE /* ApetizerListViewModel.swift in Sources */,
+				C0D91FE82D24CA1400831ACE /* ApetizersApp.swift in Sources */,
+				C0D91FE92D24CA1400831ACE /* ApetizerTabView.swift in Sources */,
+				C0D91FEA2D24CA1400831ACE /* Color+Ext.swift in Sources */,
+				C0D91FEB2D24CA1400831ACE /* LoadingView.swift in Sources */,
+				C0D91FEC2D24CA1400831ACE /* NetworkManager.swift in Sources */,
+				C0D91FED2D24CA1400831ACE /* OrderView.swift in Sources */,
+				C0D91FFD2D24CC4400831ACE /* DetailView.swift in Sources */,
+				C0D91FEE2D24CA1400831ACE /* RemoteImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

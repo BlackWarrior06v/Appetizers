@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C04252842D261A5F00DB0BD7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04252832D261A5F00DB0BD7 /* User.swift */; };
 		C0D1DA152D25FF1600F944F0 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D1DA142D25FF1600F944F0 /* APButton.swift */; };
 		C0D1DA172D25FFF500F944F0 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D1DA162D25FFF500F944F0 /* XDismissButton.swift */; };
 		C0D1DA192D260A4C00F944F0 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D1DA182D260A4C00F944F0 /* AccountViewModel.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C04252832D261A5F00DB0BD7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C077BB4E2D1F8C660049C96E /* Apetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C077BB5E2D1F8C680049C96E /* ApetizersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApetizersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C077BB682D1F8C680049C96E /* ApetizersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApetizersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -241,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				C0D91FD12D24CA1400831ACE /* Apetizer.swift */,
+				C04252832D261A5F00DB0BD7 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -431,6 +434,7 @@
 				C0D91FE42D24CA1400831ACE /* ApetizerAccountView.swift in Sources */,
 				C0D91FE52D24CA1400831ACE /* ApetizerListCell.swift in Sources */,
 				C0D91FE62D24CA1400831ACE /* ApetizerListView.swift in Sources */,
+				C04252842D261A5F00DB0BD7 /* User.swift in Sources */,
 				C0D1DA152D25FF1600F944F0 /* APButton.swift in Sources */,
 				C0D91FE72D24CA1400831ACE /* ApetizerListViewModel.swift in Sources */,
 				C0D91FE82D24CA1400831ACE /* ApetizersApp.swift in Sources */,

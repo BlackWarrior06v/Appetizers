@@ -12,6 +12,8 @@ final class ApetizerListViewModel: ObservableObject{
     @Published var apetizers: [Apetizer] = []
     @Published var alertItem: AlertItem?
     @Published var isLoading = false
+    @Published var isShowingDetail = false
+    @Published var selectedApetizer: Apetizer?
     
     func getApetizers() {
         self.isLoading = true

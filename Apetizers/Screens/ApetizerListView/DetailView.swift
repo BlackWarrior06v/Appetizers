@@ -9,6 +9,8 @@ import SwiftUI
 
 struct DetailView: View {
     
+    @EnvironmentObject var order: Order
+    
     let apetizer: Apetizer
     @Binding var isShowingDetail: Bool
     
@@ -16,6 +18,7 @@ struct DetailView: View {
         VStack {
             ApetizerRemoteImage(urlString: apetizer.imageURL)
                 .aspectRatio(contentMode: .fit)
+                .foregroundColor(.secondary)
                 .frame(maxWidth: 300, maxHeight: 225)
             
             VStack {
@@ -38,7 +41,8 @@ struct DetailView: View {
             Spacer()
             
             Button {
-                
+                order.add(apetizer)
+                isShowingDetail = false
             } label: {
                 APButton(title: "$\(apetizer.price, specifier: "%.2f") - Add To Order")
             }

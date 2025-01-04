@@ -16,6 +16,7 @@ struct ApetizerListCell: View {
             ApetizerRemoteImage(urlString: apetizer.imageURL)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 120, height: 90)
+                .foregroundColor(.secondary)
                 .cornerRadius(8)
             
             VStack(alignment: .leading, spacing: 5) {

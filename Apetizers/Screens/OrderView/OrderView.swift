@@ -18,6 +18,7 @@ struct OrderView: View {
                     List {
                         ForEach(order.APOrder) { apetizer in
                             ApetizerListCell(apetizer: apetizer)
+                                .listRowSeparator(.hidden)
                         }
                         .onDelete(perform: order.deleteItems)
                     }
@@ -26,8 +27,10 @@ struct OrderView: View {
                     Button {
                         print("Order Submitted")
                     } label: {
-                        APButton(title: "Total: $\(order.totalPrice, specifier: "%.2f")")
+//                        APButton(title: "Total: $\(order.totalPrice, specifier: "%.2f")")
+                        Text("Total: $\(order.totalPrice, specifier: "%.2f")")
                     }
+                    .modifier(StandardButtonStyle())
                 }
                 
                 if (order.APOrder.isEmpty) {
